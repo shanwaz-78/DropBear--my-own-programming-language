@@ -38,7 +38,6 @@ const tokenize = (input) => {
       tokens.push({ type: 'Name', value: symbol });
       continue;
     }
-
     if (isQuote(currentCharacter)) {
       let string = '';
       while (!isQuote(input[++currentCursorPosition])) {
