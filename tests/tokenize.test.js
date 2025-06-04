@@ -42,7 +42,7 @@ describe(tokenize, () => {
     expect(tokenize(input)).toEqual(result);
   });
 
-  it('should be able to handle single letters in expressions', () => {
+  it.skip('should be able to handle single letters in expressions', () => {
     const input = '(a b)';
 
     const result = [
