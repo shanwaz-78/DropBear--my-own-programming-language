@@ -18,7 +18,6 @@ const tokenize = (input) => {
     if (isWhitespace(currentCharacter)) {
       currentCursorPosition++;
       continue;
-      I;
     }
 
     if (isNumber(currentCharacter)) {
